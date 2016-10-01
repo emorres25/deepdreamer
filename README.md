@@ -16,6 +16,8 @@ Easy to configure Python program that make use of [Google's DeepDream](https://g
 * [FFmpeg](https://www.ffmpeg.org/) (Optional, required for videos.)
 
 ## Installation
+- For Mac OSX, run 'sh macInstaller.sh' in the terminal.
+- Manually install :
 1. Install [NumPy](https://pypi.python.org/pypi/numpy), [SciPy](https://pypi.python.org/pypi/scipy/), [Pillow](https://pypi.python.org/pypi/Pillow/) and [Caffe](http://caffe.berkeleyvision.org/). *NumPy, SciPy & Pillow can be installed via PIP.*
 2. Download **deploy.prototxt** from [bvlc_googlenet](https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet).
 3. Add line `force_backward: true` to **deploy.prototxt** file.
